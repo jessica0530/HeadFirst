@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<title>Furry Friends Campaign</title>
+		<style>
+			img {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<input type="button" id="clickMe" value="Click me"/>
+			<div id="picframe">
+				<img src="images/furry_friend.jpg" alt="Our Furry Friend">
+			</div>
+			<!-- Make a slider to choose how quick the image disappears -->
+			<script src="../../scripts/jquery-1.10.2.min.js"></script>
+			<script>
+				$(document).ready(function(){
+					$("#clickMe").click(function() {
+						$("img").fadeToggle(1000);
+					});
+				});
+			</script>
+		</div>
+	</body>
+</html>
