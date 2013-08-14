@@ -6,6 +6,7 @@ div{
 
 .guess_box{
 	height:245px;
+	cursor:pointer;
 }
 
 #header{
