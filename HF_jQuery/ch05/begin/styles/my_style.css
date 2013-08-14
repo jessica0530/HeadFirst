@@ -68,5 +68,12 @@ p {
 
 #text_top {
 	position:relative;
-	z-index:4;
+	z-index: 4;
+}
+
+#top {
+	position:absolute;
+	left:191px;
+	top:15px;
+	z-index: 4;
 }
