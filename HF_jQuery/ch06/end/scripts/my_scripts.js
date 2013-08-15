@@ -174,7 +174,6 @@ $(document).ready(function(){
 		hand.cards.length = 0;
 		hand.current_total = 0;
 		
-		$("#btnDeal").toggle()
-					 .trigger('click');
+		$("#btnDeal").toggle().trigger('click');
 	});
 });
