@@ -1,0 +1,1 @@
+Lightning does NOT actually stop!?
