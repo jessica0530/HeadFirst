@@ -71,11 +71,8 @@ $(document).ready(function(){
 	});
 	
 	$('#btnSave').click(function() {
-
 		var data = $("#addRunner :input").serializeArray();
-
 		$.post($("#addRunner").attr('action'), data, function(json){
-			
 			if (json.status == "fail") {
 				alert(json.message);
 			}

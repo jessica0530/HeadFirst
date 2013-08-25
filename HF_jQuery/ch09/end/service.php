@@ -50,11 +50,12 @@ if($_GET){
 		exit;
 	}
 }	
+
 	function db_connection($query) {
 		mysql_connect('127.0.0.1', 'runner_db_user', 'runner_db_password')
 			OR die(fail('Could not connect to database.'));
-		mysql_select_db('race_info');
-
+		mysql_select_db('hfjq_race_info');
+		echo "Connected!";
 		return mysql_query($query);
 	}
 	
