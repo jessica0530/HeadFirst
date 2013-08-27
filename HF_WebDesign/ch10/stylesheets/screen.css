@@ -1,0 +1,158 @@
+/*
+Red Lantern Revisited
+HFWD Chapter 10
+http://headfirslabs.com/books/hfwd/ch10/stylesheets/screen.css
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #7a2122 url('../images/body_bg.gif') repeat-x top;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a:link, a:visited {
+	color: #333;
+	background: #eee;
+}
+
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+/* Rounded-corner header */
+#masthead {
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 70px;
+	width: 800px;
+	color: #fff;
+	background: url('../images/rounded_header.gif') no-repeat bottom;
+}
+
+#masthead h1 {
+	float: left;
+}
+
+#nav {
+	float: right;
+	margin: 0 10px 0 0;
+	padding: 30px 0 0 0;
+	font-size: 1.4em;
+}
+
+#nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+#nav li a {
+	color: #fff;
+	text-decoration: none;
+	background: none;
+}
+
+#wrap {
+	clear: both;
+	margin: 0 auto;
+	padding: 10px;
+	width: 780px;
+	background: #fff;
+	border: 10px solid #5c0505;
+	border-top: none;
+}
+
+/*
+The main image is a background image so that we can
+overlay the text that used to appear below the header/
+*/
+#header {
+	height: 180px;
+	background: url('../images/tokyo_updated.jpg') no-repeat;
+	border: 10px solid #eee;
+}
+
+#header h1 {
+	font-size: 2em;
+	line-height: 1.2em;
+	padding: 20px;
+	color: #eee;
+	width: 200px;
+	font-weight: normal;
+}
+
+#content {
+	float: left;
+	width: 500px;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+}
+
+#content h2 {
+	font-size: 2.4em;
+	margin: 0 0 10px 0;
+}
+
+#content p {
+	margin: 0 0 10px 0;
+}
+
+#link-list {
+	margin: 20px 0 0 0;
+	font-size: 1.4em;
+}
+
+#link-list li {
+	margin: 0 0 10px 0;
+}
+
+#sidebar {
+	float: right;
+	margin: 20px 0 20px 0;
+	padding: 10px;
+	width: 240px;
+	background: #eee;
+	border-top: 5px solid #ddd;
+}
+
+#sidebar h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 0 5px 5px 5px;
+}
+
+#port li {
+	margin: 10px 35px 0 35px;
+}
+
+#port li img {
+	border: 5px solid #ddd;	
+}
+
+#footer {
+	clear: both;
+	background: #eee;
+	padding: 10px;
+	border-top: 2px solid #ddd;
+	text-align: center;
+	color: #777;
+}

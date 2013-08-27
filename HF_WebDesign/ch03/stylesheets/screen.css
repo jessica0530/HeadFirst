@@ -1,0 +1,120 @@
+/*
+"Mark in Japan" final layout
+HFWD Chapter 3
+http://headfirslabs.com/books/hfwd/ch03/stylesheets/screen.css
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #026dc0 url('../images/bg.gif') repeat-x top;
+	font-family: Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+
+/* Use a single rule for elements that share the same properties */
+h1, h2, h3, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+p, h2, h3 {
+	margin: 0 0 10px 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+/* Our friend "margin: 0 auto" shows up again */
+#wrap {
+	margin: 0 auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	padding: 10px;
+	width: 780px;
+	background: #fff;
+	border: 10px solid #044375;
+}
+
+#header {
+	background: url('../images/island_header.jpg') no-repeat;
+	height: 250px;
+}
+
+/*
+Use background images in CSS to add visuals
+to text
+*/
+#header h1 {
+	padding: 30px 0 30px 30px;
+	color: #fff;
+	background: url('../images/dot.png') no-repeat 10px 50%;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+#nav {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	background: #044375;
+	border-top: 5px solid #033761;
+}
+
+/*
+By default, list items are displayed as a block. We can
+override that style with "display: inline" which will cause
+the list items to appear next to each other.
+*/
+#nav ul li {
+	display: inline;
+	margin: 0 10px 0 10px;
+}
+
+#nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Standard float positioning */
+#content {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	float: left;
+	width: 505px;
+}
+
+#sidebar {
+	margin: 10px 0 0 0;
+	padding: 10px;
+	float: right;
+	width: 225px;
+}
+
+#sidebar ul {
+	margin: 0 0 40px 0;
+}
+
+#sidebar h3 {
+	padding: 5px;
+	background: #eee;
+	border-bottom: 2px solid #ddd;
+	font-weight: normal;
+}
+
+/*
+Remember to "clear: both" when positioning elements
+below floated elements.
+*/
+#footer {
+	clear: both;
+	padding: 10px;
+	background: #eee;
+	border-bottom: 2px solid #ddd;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	color: #777;
+}

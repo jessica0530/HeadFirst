@@ -1,0 +1,129 @@
+/*
+Foobar
+HFWD Chapter 11
+http://headfirslabs.com/books/hfwd/ch11/foobar/stylesheets/screen.css
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #cfcdb4;
+	border-top: 10px solid #bcba9e;
+	font-family: Helvetica, sans-serif;
+	color: #fff;
+}
+
+p {
+	margin: 0 0 10px 0;
+	padding: 0;
+	line-height: 1.2em;
+}
+
+h2 {
+	margin: 0;
+	color: #6d8ead;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 800px;
+	background: #362416;
+	border-left: 5px solid #281a0f;
+	border-right: 5px solid #281a0f;
+}
+
+#wrap h1 {
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	background: #553f2d;
+	border-bottom: 1px solid #362416;
+	color: #fff;
+	font-weight: normal;
+	font-family: Georgia, serif;
+}
+
+#header {
+	margin: 0 auto;
+	width: 810px;
+	text-align: center;
+}
+
+#navigation {
+	margin: 0 auto;
+	width: 810px;
+	text-align: center;
+	background: url('../images/wrap_top.gif') no-repeat top;
+	height: 50px;
+}
+
+#navigation ul {
+	padding: 15px;
+}
+
+#navigation ul li {
+	margin: 0 15px 0 15px;
+	display: inline;
+}
+
+#navigation ul li a {
+	color: #6d8ead;
+	font-weight: bold;
+	font-size: large;
+	text-decoration: none;
+}
+
+#navigation ul li a.active {
+	color: #fff;
+}
+
+#content {
+	margin: 20px 0 0 0;
+	float: left;
+	width: 500px;
+	padding: 0 15px 0 15px;
+}
+
+#content h2 {
+	margin: 0 0 10px 0;
+	font-size: xx-large;
+}
+
+#sidebar {
+	float: right;
+	width: 260px;
+	margin: 20px 0 0 0;
+}
+
+#sidebar ul {
+	margin: 0 0 0 10px;
+}
+
+#sidebar ul li {
+	margin: 0 0 10px 0;
+}
+
+#sidebar h2 {
+	background: #553f2d;
+	margin: 0 0 10px 0;
+	padding: 5px;
+}
+
+#footer {
+	padding: 10px;
+	clear: both;
+	font-size: small;
+}
+
+#footer p {
+	margin: 0;
+	padding: 10px;
+	background: #281a0f;
+	text-align: center;
+}

@@ -1,0 +1,65 @@
+/*
+Rough comp for "Mark in Japan" site
+HFWD Chapter 2
+http://headfirslabs.com/books/hfwd/ch02/stylesheets/screen.css
+*/
+
+body {
+	margin: 0;
+	background: #112b63;
+	font-family: Georgia, serif;
+	line-height: 1.2em;
+}
+
+h1, p, ul {
+	margin: 0;
+	padding: 10px;
+}
+
+ul {
+	padding: 10px;
+	list-style-type: none;
+}
+
+ul li {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+#wrap {
+	margin: 0 auto;
+	padding: 10px 20px 20px 20px;
+	width: 880px;
+	background: #0b204c;
+	border-top: 10px solid #091a3f;
+}
+
+#header {
+	background: #ead9b8;
+	height: 150px;
+}
+
+/* Each column is floated left right gutter on 20px */
+#content-left, #content-center {
+	float: left;
+	width: 280px;
+	margin: 20px 20px 20px 0;
+	background: #fff;
+}
+
+/* Same with the far right column, just a different color */
+#sidebar {
+	float: left;
+	width: 280px;
+	margin: 20px 0 20px 0;
+	background: #ccc;
+}
+
+/* 
+When all the columns above the footer are being floated, make
+sure you push the footer <div> below the columns using "clear: both"
+*/
+#footer {
+	clear: both;
+	background: #ead9b8;
+}

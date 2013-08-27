@@ -1,0 +1,139 @@
+/*
+College of New Media (before nav redesign)
+HFWD Chapter 6
+http://headfirslabs.com/books/hfwd/ch06/newmedia_before/stylesheets/screen.css
+*/
+
+/*
+The faded background image can be made in your favorite
+text editor and placed using the background property.
+*/
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff url('../images/main_bg.jpg') no-repeat top left;
+	border-top: 10px solid #222;
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+}
+
+img {
+	border: none;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
+/* Pretty ampersands */
+span.amp {
+	font-family: Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+	font-style: italic;
+}
+
+#header {
+	background: url('../images/nav_bg.png');
+	height: 75px;
+}
+
+#header img {
+	float: left;
+}
+
+
+#nav {
+	padding: 20px;
+}
+
+#nav a {
+	color: #fff;
+	margin: 0 15px 0 0;
+}
+
+#subnav {
+	margin: 0;
+	padding: 0;
+	background: #d2dbc0;
+	height: 46px;
+}
+
+#subnav ul li {
+	float: left;
+	margin: 0;
+	padding: 7px 20px 7px 0;
+	font-size: 1.4em;
+}
+
+/*
+This rule gives us special styles for the "Programs" arrow
+in the sub-navigation.
+*/
+#subnav li.option {
+	text-transform: uppercase;
+	background: #b2bf99 url('../images/option_li_bg.gif') no-repeat right;
+	padding: 15px 25px 15px 10px;
+	color: #7f8e62;
+}
+
+#subnav li a {
+	padding: 10px 0 10px 35px;
+	color: #333;
+	text-decoration: none;
+}
+
+#subnav p {
+	width: 800px;
+}
+
+#wrap {
+	padding: 0;
+	margin: 225px 0 0 20px;
+	width: 780px;
+	background: #fff;
+	border-top: 5px solid #333;
+}
+
+p.crumbs {
+	background: #eee;
+	padding: 10px;
+}
+
+#content {
+	width: 495px;
+	padding: 10px;
+	float: right;
+}
+
+#content h2, #sidebar h2 {
+	font-size: 2em;
+	margin: 0 0 5px 0;
+}
+
+#content p, #sidebar h2 {
+	margin: 0 0 10px 0;
+}
+
+#sidebar {
+	width: 235px;
+	padding: 10px;
+	float: left;
+}
+
+#content p, #sidebar p {
+}
+
+#footer {
+	clear: both;
+	border-top: 1px solid #ccc;
+}

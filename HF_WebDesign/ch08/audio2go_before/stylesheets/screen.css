@@ -1,0 +1,176 @@
+/*
+Audio 2 Go (before accessibility)
+HFWD Chapter 8
+http://headfirslabs.com/books/hfwd/ch08/audio2go_before/stylesheets/screen.css
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #fff url('../images/body_bg.gif') repeat-x top;
+	font-family: Georgia, serif;
+	color: #333;
+}
+
+img {
+	border: 0;
+}
+
+h1, h2, p, ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	font-family: Helvetica, sans-serif;
+}
+
+ul {
+	list-style-type: none;
+}
+
+#wrap {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#header {
+	padding: 20px;
+	height: 51px;
+	background: url('../images/books.gif') no-repeat right bottom;
+}
+
+#header h1 {
+	float: left;
+	margin: 0 20px 0 0;
+}
+
+#header #nav {
+	float: left;
+	padding: 15px;
+	font-family: Helvetica, sans-serif;
+}
+
+#header #nav li {
+	display: inline;
+}
+
+#header #nav li a {
+	padding: 20px;
+	color: #803401;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#header #nav li a:hover {
+	color: #fff;
+}
+
+#header #nav li a.active {
+	color: #fff;
+	background: url('../images/active_bg.gif') no-repeat 50% 49%;
+}
+
+#instructions, #featured-books, #book-list {
+	margin: 30px 0 20px 0;
+	width: 360px;
+}
+
+#instructions {
+	float: left;
+	padding: 10px;
+	border: 10px solid #e5f7df;
+	background: #fff;
+}
+
+#instructions p {
+	margin: 5px 0 20px 0;
+	color: #555;
+}
+
+#instructions h2 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#featured-books {
+	float: right;
+	padding: 10px;
+	
+}
+
+#featured-books h2, #book-list h2 {
+	margin: 0 0 20px 0;
+	border-bottom: 1px dotted #aaa;
+}
+
+#featured-books li {
+	float: left;
+	margin: 0 15px 40px 0;
+}
+
+#featured-books li .rating {
+	padding: 4px 0 4px 30px;
+	font-family: Helvetica, sans-serif;
+	font-size: small;
+	text-transform: uppercase;
+}
+
+
+/* Each star is classes for a different color */
+.high {
+	background: url('../images/star_high.png') no-repeat left;
+}
+
+.medium {
+	background: url('../images/star_medium.png') no-repeat left;
+}
+
+.low {
+	background: url('../images/star_low.png') no-repeat left;
+}
+
+#book-list {
+	float: left;
+	padding: 10px;
+}
+
+/*
+Tables aren't evil, especially when used properly
+(in a non-layout role)
+*/
+#book-list table {
+	text-align: left;
+	width: 100%;
+}
+
+#book-list table th {
+	padding: 10px;
+	background: #dcf1d4;
+	font-size: small;
+	font-family: Helvetica, sans-serif;
+	border-bottom: 2px solid #c5e2ba;
+}
+
+#book-list table td {
+	padding: 15px 10px 15px 2px;
+	border-bottom: 1px solid #ddd;
+}
+
+#book-list table td.price {
+	font-weight: bold;
+	font-size: small;
+}
+
+#book-list table tr:hover {
+	background: #f8fdd8;
+}
+
+#footer {
+	clear: both;
+	padding: 10px;
+	text-align: center;
+	font-size: small;
+	background: #e5f7df;
+	border-top: 2px solid #d9f0d1;
+}
